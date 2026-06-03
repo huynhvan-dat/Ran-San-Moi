@@ -1,35 +1,3 @@
-// EX1:
-// fn loop_then_return(mut counter: i32) -> i32 {
-//     loop {
-//         counter += 1;
-//         if counter % 50 == 0 {
-//             break;
-//         }
-//     }
-
-//     counter
-// }
-
-// fn main() {
-//     let my_number;
-
-//     {
-//         let number = { 57 };
-//         my_number = loop_then_return(number);
-//     }
-
-//     println!("{}", my_number);
-// }
-
-//EX2: CLOSURE
-// fn main() {
-//     let x = 2;
-
-//     let square = |i| -> i32 { i * i }(x);
-
-//     println!("{}", square);
-// }
-
 //CODE: TRÒ RẮN SĂN MỒI
 use crossterm::{
     cursor,
