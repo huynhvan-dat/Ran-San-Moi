@@ -1,5 +1,10 @@
-/target
-#BO QUA CODE 1, CODE 2
-code1.rs
-code2.rs
-main.rs
+# Bỏ qua thư mục build của Rust
+/target/
+
+# Bỏ qua các file ẩn của IDE/Editor
+.zed/
+
+# Bỏ qua các file tạm của hệ thống
+.DS_Store
+# Bỏ qua các file ví dụ
+code1, code2
